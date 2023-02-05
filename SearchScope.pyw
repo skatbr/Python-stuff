@@ -1,3 +1,6 @@
+# This is a Python GUI program using the Tkinter library. It allows the user to search for a file or folder within a selected directory.
+# requirements:
+    # customtkinter==5.0.5
 import os
 import tkinter as tk
 from tkinter import filedialog
