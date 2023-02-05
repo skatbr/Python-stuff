@@ -56,7 +56,9 @@ entry = ctk.CTkEntry(master=root, font=("Helvetica", 12))
 
 search_button = ctk.CTkButton(master=root, text="Search", command=search, font=("Helvetica", 12))
 select_folder_button = ctk.CTkButton(master=root, text="Select Folder", command=select_folder, font=("Helvetica", 12))
-listbox = ctk.CTkTextbox(root, font=("Arial", 20))
+listbox = ctk.CTkTextbox(root, font=("Helvetica", 12))
+
+
 progressbar = ttk.Progressbar(root, orient="horizontal", length=500, mode="determinate")
 folder_label = tk.Label(root, text="", font=("Helvetica", 12), bg="#3f3f3f", fg="#fff")
 folder_label = ctk.CTkLabel(root, text=str(os.path.expanduser("~")), font=("Helvetica", 12))
@@ -73,9 +75,6 @@ folder_label.pack(pady=10)
 
 def fire_search(event=None):
     search()
-
-
-# entry.bind("<Return>", fire_search)
 
 
 root.mainloop()
