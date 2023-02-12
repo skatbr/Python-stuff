@@ -1,5 +1,5 @@
 """
-This is a Python GUI program using the Tkinter library. It allows the user to |ch for a file or folder within a selected directory.
+This is a Python GUI program using the Tkinter library. It allows the user to search for a file or folder within a selected directory.
 Discover your lost or hard-to-find files.
 requirements:
     customtkinter==5.0.5
